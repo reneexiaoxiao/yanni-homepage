@@ -317,12 +317,12 @@ ul {
 }
 
 .hero-titles {
-    display: flex;
+    display: none;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 8px;
-    font-size: 0.82rem;
+    font-size: 0.72rem;
     color: var(--text-tertiary);
     letter-spacing: 0.5px;
     font-family: var(--font-sans);
@@ -920,7 +920,7 @@ ul {
     }
 
     .hero-inner {
-        flex-direction: column-reverse;
+        flex-direction: column;
         gap: 40px;
     }
 
@@ -947,6 +947,7 @@ ul {
     }
 
     .hero-titles {
+        display: flex;
         justify-content: center;
     }
 
